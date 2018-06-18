@@ -21,7 +21,7 @@ h1 {
   font-size: 2em;
 }
 /* h3 in example class customizations */
-h3 .example {
+.example h3 {
   padding-top: 30px;
   text-align: center;
 }
@@ -35,7 +35,8 @@ h3 {
   height: 100px;
   margin: 10px 0;
   width: 100%;
+}
 /* customizations for last 3 divs in section */
-div:nth-child(n+6) {
+ div:nth-child(n+7) {
   background-color: purple;
   }
